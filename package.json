@@ -26,8 +26,7 @@
     "react-native-gesture-handler": "^1.7.0",
     "react-native-reanimated": "^1.13.0",
     "react-native-screens": "^2.10.1",
-    "styled-components": "^5.1.1",
-    "styled-media-query": "^2.1.2"
+    "styled-components": "^5.1.1"
   },
   "husky": {
     "hooks": {
