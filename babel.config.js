@@ -5,19 +5,19 @@ module.exports = {
     ['module-resolver', {
       root: ['./'],
       alias: {
-        "@Components": ["./src/components"],
-        "@Images": ["./src/images"],
-        "@Icons": ["./src/icons"],
-        "@Routes": ["./src/routes"],
-        "@Screens": ["./src/screens"],
-        "@Theme": ["./src/theme"],
-        "@Layouts": ["./src/layouts"],
-        "@Utils": ["./src/utils"],
-        "@Resources": ["./src/resources"],
-        "@Store": ["./src/store"],
-        "@Requests": ["./src/requests"],
-        "@Constants": ["./src/constants"]
-      }
-    }]
-  ]
+        '@Components': ['./src/components'],
+        '@Images': ['./src/images'],
+        '@Icons': ['./src/icons'],
+        '@Routes': ['./src/routes'],
+        '@Screens': ['./src/screens'],
+        '@Theme': ['./src/theme'],
+        '@Layouts': ['./src/layouts'],
+        '@Utils': ['./src/utils'],
+        '@Resources': ['./src/resources'],
+        '@Store': ['./src/store'],
+        '@Requests': ['./src/requests'],
+        '@Constants': ['./src/constants'],
+      },
+    }],
+  ],
 };

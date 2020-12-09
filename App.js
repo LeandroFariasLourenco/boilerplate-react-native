@@ -6,14 +6,12 @@ import Routes from '@Routes';
 import theme from '@Theme';
 import store from '@Store';
 
-const App = () => {
-  return (
-    <Provider store={store}>
-      <ThemeProvider theme={theme}>
-        <Routes />
-      </ThemeProvider>
-    </Provider>
-  );
-};
+const App = () => (
+  <Provider store={store}>
+    <ThemeProvider theme={theme}>
+      <Routes />
+    </ThemeProvider>
+  </Provider>
+);
 
 export default App;

@@ -7,13 +7,13 @@ import Register from '@Screens/Register';
 
 const Stack = createStackNavigator();
 
-const Routes = () => {
+const Routes = () => (
   <NavigationContainer>
     <Stack.Navigator>
-      <Stack.Screen name="Home" component={Home} />
-      <Stack.Screen name="Register" component={Register} />
+      <Stack.Screen name='Home' component={Home} />
+      <Stack.Screen name='Register' component={Register} />
     </Stack.Navigator>
   </NavigationContainer>
-};
+);
 
 export default Routes;
